@@ -1,23 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { AddActionComponent } from './add-action.component';
-
-describe('AddActionComponent', () => {
-  let component: AddActionComponent;
-  let fixture: ComponentFixture<AddActionComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [AddActionComponent]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(AddActionComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:7eee78cecdbb298df12343b9bb585748c39652b849ce078afdd506acb51c1c0e
+size 637

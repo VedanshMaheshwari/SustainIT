@@ -1,15 +1,3 @@
-import { Component } from '@angular/core';
-import { ActionListComponent } from './components/action-list/action-list.component';
-import { AddActionComponent } from './components/add-action/add-action.component';
-import { CommonModule } from '@angular/common';
-
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, ActionListComponent, AddActionComponent],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-})
-export class AppComponent {
-  title = 'Sustainability Tracker';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:451071aa2a932c4968a6e28dfe06ecbc3289002b6cf096c65a36cd8150f3f557
+size 545

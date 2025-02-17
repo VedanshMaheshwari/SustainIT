@@ -1,16 +1,3 @@
-import { TestBed } from '@angular/core/testing';
-
-import { SustainabilityService } from './sustainability.service';
-
-describe('SustainabilityService', () => {
-  let service: SustainabilityService;
-
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(SustainabilityService);
-  });
-
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b72af89c05eadb5a9bc121429b63a23474f4d2eb4d0e3eba5f7766c6c127826
+size 413

@@ -1,6 +1,3 @@
-import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
-
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+version https://git-lfs.github.com/spec/v1
+oid sha256:abed2fcecfc488c97265276567a7eaeac7acb0abf954ab6fd6ccfbab2243b3e5
+size 256

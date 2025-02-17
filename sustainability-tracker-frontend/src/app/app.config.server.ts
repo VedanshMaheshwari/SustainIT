@@ -1,14 +1,3 @@
-import { mergeApplicationConfig, ApplicationConfig } from '@angular/core';
-import { provideServerRendering } from '@angular/platform-server';
-import { provideServerRouting } from '@angular/ssr';
-import { appConfig } from './app.config';
-import { serverRoutes } from './app.routes.server';
-
-const serverConfig: ApplicationConfig = {
-  providers: [
-    provideServerRendering(),
-    provideServerRouting(serverRoutes)
-  ]
-};
-
-export const config = mergeApplicationConfig(appConfig, serverConfig);
+version https://git-lfs.github.com/spec/v1
+oid sha256:37e657b3295c0782d352b9bad4c8106123fecc029c86c4ba04ac0227952d7930
+size 509
