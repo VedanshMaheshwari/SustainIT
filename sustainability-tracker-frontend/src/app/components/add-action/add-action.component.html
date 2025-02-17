@@ -1,0 +1,13 @@
+<h2>Add New Sustainability Action</h2>
+<form (ngSubmit)="onSubmit()">
+  <label for="action">Action:</label>
+  <input type="text" id="action" [(ngModel)]="newAction.action" name="action" required />
+
+  <label for="date">Date:</label>
+  <input type="date" id="date" [(ngModel)]="newAction.date" name="date" required />
+
+  <label for="points">Points:</label>
+  <input type="number" id="points" [(ngModel)]="newAction.points" name="points" required />
+
+  <button type="submit">Add Action</button>
+</form>
